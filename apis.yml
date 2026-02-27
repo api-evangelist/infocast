@@ -1,0 +1,87 @@
+name: Infocast
+description: Infocast provides news, information, and data services through various APIs
+image: https://www.infocast.com/logo.png
+created: '2024-01-15'
+modified: '2024-01-15'
+url: https://www.infocast.com/apis.json
+specificationVersion: '0.16'
+apis:
+- name: Infocast News API
+  description: Access to real-time news articles, press releases, and media content
+  image: https://www.infocast.com/images/news-api.png
+  humanURL: https://www.infocast.com/news-api
+  baseURL: https://api.infocast.com/v1/news
+  tags:
+  - News
+  - Media
+  - Content
+  - Press Releases
+  properties:
+  - type: Documentation
+    url: https://docs.infocast.com/news-api
+  - type: OpenAPI
+    url: https://api.infocast.com/v1/news/openapi.json
+  - type: Authentication
+    url: https://docs.infocast.com/authentication
+  - type: Pricing
+    url: https://www.infocast.com/pricing/news-api
+  contact:
+  - FN: API Support
+    email: api-support@infocast.com
+    url: https://www.infocast.com/support
+- name: Infocast Events API
+  description: Conference and event information, schedules, and registration data
+  image: https://www.infocast.com/images/events-api.png
+  humanURL: https://www.infocast.com/events-api
+  baseURL: https://api.infocast.com/v1/events
+  tags:
+  - Events
+  - Conferences
+  - Schedules
+  - Registration
+  properties:
+  - type: Documentation
+    url: https://docs.infocast.com/events-api
+  - type: OpenAPI
+    url: https://api.infocast.com/v1/events/openapi.json
+  - type: Webhooks
+    url: https://docs.infocast.com/events-api/webhooks
+  contact:
+  - FN: API Support
+    email: api-support@infocast.com
+- name: Infocast Data Feed API
+  description: Structured data feeds for industry research, market intelligence, and analytics
+  image: https://www.infocast.com/images/data-api.png
+  humanURL: https://www.infocast.com/data-api
+  baseURL: https://api.infocast.com/v1/data
+  tags:
+  - Data
+  - Analytics
+  - Research
+  - Market Intelligence
+  properties:
+  - type: Documentation
+    url: https://docs.infocast.com/data-api
+  - type: OpenAPI
+    url: https://api.infocast.com/v1/data/openapi.json
+  - type: Rate Limits
+    url: https://docs.infocast.com/rate-limits
+  - type: Status
+    url: https://status.infocast.com
+common:
+- type: Terms of Service
+  url: https://www.infocast.com/terms
+- type: Privacy Policy
+  url: https://www.infocast.com/privacy
+- type: Sign Up
+  url: https://www.infocast.com/signup
+- type: Login
+  url: https://www.infocast.com/login
+- type: Blog
+  url: https://blog.infocast.com
+- type: Status Page
+  url: https://status.infocast.com
+maintainers:
+- FN: Infocast API Team
+  email: api-team@infocast.com
+  url: https://www.infocast.com/about
