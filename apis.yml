@@ -7,9 +7,9 @@ description: >-
 type: Index
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 tags:
-  - Events
   - Conferences
   - Energy
+  - Events
   - Industry Intelligence
 url: >-
   https://raw.githubusercontent.com/api-evangelist/infocast/refs/heads/main/apis.yml
